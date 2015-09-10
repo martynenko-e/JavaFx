@@ -17,6 +17,8 @@ public class CalculatorMain extends Application{
 	        primaryStage.setScene(new Scene(root, 400, 400));
 			primaryStage.show();
 		} catch (Exception e) {
+
+
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
