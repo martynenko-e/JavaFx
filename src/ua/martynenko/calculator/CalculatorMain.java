@@ -13,10 +13,8 @@ public class CalculatorMain extends Application{
 		// TODO Auto-generated method stub
 		
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("Sample.fxml"));
-			Scene scene = new Scene(root, 300, 300);
-			primaryStage.setTitle("Hello World");
-	        primaryStage.setScene(scene);
+			Parent root = FXMLLoader.load(getClass().getResource("Calculator.fxml"));
+	        primaryStage.setScene(new Scene(root, 400, 400));
 			primaryStage.show();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
