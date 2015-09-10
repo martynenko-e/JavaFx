@@ -1,0 +1,7 @@
+
+<?import javafx.scene.Scene?>
+
+<Scene fx:controller="ua.martynenko.calculator.Controller" xmlns:fx="http://javafx.com/fxml">
+	<!-- TODO Add Nodes -->
+</Scene>
+
